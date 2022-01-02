@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto';
+}
+body{
+    background-color: rgb(46, 52, 77);
+}
+.vstbkt{
+    color: rgba(51, 84, 92, 0.952);
+}
