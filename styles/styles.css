@@ -8,3 +8,8 @@ body{
 .vstbkt{
     color: rgba(51, 84, 92, 0.952);
 }
+.image{
+    height: 450px;
+    width: 500px;
+    margin: 10px;
+}
