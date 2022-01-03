@@ -1,30 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-*{
-    font-family: 'Roboto';
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+    font-family: "Roboto";
     margin: 0;
     padding: 0;
 }
 html {
     scroll-behavior: smooth;
 }
-body{
-    background-color: rgb(78, 126, 118);
+body {
+    background-image: linear-gradient(to right, #4cd3e0, #8f4ce0);
     padding: 50px;
 }
-.vstbkt{
-    color: rgb(195, 202, 231);
+.vstbkt {
+    color: rgb(209, 0, 0);
 }
-h2{
+h2 {
     color: aliceblue;
-    text-align: center;
+    text-align: left;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom: black;
+    border-style: dotted;
 }
-.textalign{
+.textalign {
+    text-align: justify;
     padding-bottom: 10px;
-    text-align: center;
 }
-p{
+p {
+    color: rgb(66, 28, 21);
+    font-size: 17px;
+}
+h3 {
     color: antiquewhite;
-    font-size:medium;
 }
 a {
     text-decoration: none;
@@ -33,14 +39,36 @@ a {
 a:hover {
     color: #ff7a7a;
 }
-ul,ol{
-    list-style-image:linear-gradient(90deg, #73c6b6, #2e86c1);
+ul,
+ol {
+    list-style-image: linear-gradient(90deg, #c68673, #c12e53);
     padding-left: 60px;
 }
-li{
-    color: rgb(43, 30, 30);
+li {
+    color: rgb(66, 28, 50);
 }
-.snowflake{
+img {
+    width: 400px;
+    height: 259px;
+    border-radius: 25px;
+    border: solid black;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imager {
+    flex-basis: 70%;
+    order: 2;
+}
+.imagel {
+    flex-basis: 70%;
+}
+.text {
+    padding: 10px;
+}
+a.btn {
     position: relative;
     display: inline-block;
     padding: 12px 30px;
@@ -48,22 +76,19 @@ li{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
     letter-spacing: 2px;
     border-radius: 40px;
     background: linear-gradient(90deg, #73c6b6, #2e86c1);
 }
-img{
-    width: 400px;
-    height: 259px;
-    border: 5px solid #a200ff;
-}
-.container {
-        display: flex;
-        align-items: center;
-        justify-content: center
-}
-    .image {
-        flex-basis: 70%;
-        padding-right: 10px;
+a.btn:hover {
+    position: relative;
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #254e46, #264f69);
 }
